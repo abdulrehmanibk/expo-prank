@@ -9,9 +9,9 @@ const Main = () => {
     let account: Account;
     client = new Client();
     client
-    .setEndpoint('https://fra.cloud.appwrite.io/v1') // your actual endpoint.. 
-    .setProject('681085030030b8bb594f') // project_id 
-    .setPlatform('com.job.prank-app');// platform_id or device _ids(Android or iOS)
+    .setEndpoint('YOUR_ACTUAL_ENDPOINT') // your actual endpoint.. 
+    .setProject('YOUR_PROJECT_ID') // project_id 
+    .setPlatform('yOUR_PLATFORM_ID');// platform_id or device _ids(Android or iOS)
     account = new Account(client);
 
     const { loggedInUser, setLoggedInUser }:any = useUser();
