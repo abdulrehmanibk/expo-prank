@@ -28,9 +28,9 @@ export const UserProvider = ({ children }:any) => {
 
     client = new Client();
     client
-      .setEndpoint('https://fra.cloud.appwrite.io/v1') // your actual endpoint.. 
-      .setProject('681085030030b8bb594f') // project_id 
-      .setPlatform('com.job.prank-app'); // platform_id or device-id(Android or iOS)
+      .setEndpoint('YOUR_ACTUAL_ENDPOINT') // your actual endpoint.. 
+      .setProject('YOUR_PROJECT_ID') // project_id 
+      .setPlatform('YOUR_PLATFORM_ID'); // platform_id or device-id(Android or iOS)
     
     account = new Account(client);
 
